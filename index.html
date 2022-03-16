@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body id="body">
+    <div class="container" >
+        <form name="calc" class="calculator">
+            <div class="display">
+                <input name="text" readonly id="myInput" >
+
+            </div>
+            <div class="buttonClick">
+            
+                <div class="OneClass">
+                    <span id="num1"  onclick="btnOne()"><i>1</i></span>
+                    <span id="num2"  onclick="btnTwo()"><i>2</i></span>
+                    <span id="num1"  onclick="btnThree()"><i>3</i></span>
+                    <span id="num1"  onclick="btnPlus()">+</span>
+                </div>
+
+                
+                
+                <div class="OneClass">
+                    <span onclick="btnFour()"><i>4</i></span>
+                    <span onclick="btnFive()"><i>5</i></span>
+                    <span onclick="btnSix()"><i>6</i></span>
+                    <span onclick="btnMinus()"><i>-</i></span>
+                </div>
+
+                
+                
+                <div class="OneClass">
+                    <span onclick="btnSeven()"><i>7</i></span>
+                    <span onclick="btnEight()"><i>8</i></span>
+                    <span onclick="btnNine()"><i>9</i></span>
+                    <span onclick="btnProduct()"><i>*</i></span>
+                </div>
+
+                
+                
+                <div class="OneClass">
+                    <span onclick="btnZero()"><i>0</i></span>
+                    <span onclick="btnDivide()"><i>/</i></span>
+                    <span class="clear" onclick="calc.text.value=''"><i>C</i></span>
+
+                        
+                    <span class="equal" onclick="myResult()"><i>=</i></span>
+                </div>
+
+                    
+                    
+
+                
+            </div>
+
+        </form>
+        <div class="copyRight">
+            <p >© All right reserved by Asif Farhan</p>
+        </div>
+    </div>
+    
+    <script src="js.js"></script>
+    
+</body>
+</html>
